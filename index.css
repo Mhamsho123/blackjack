@@ -1,4 +1,27 @@
 body{
     text-align: center;
     margin-top: 50px;
+    background-color: midnightblue;
+    color: white;
+}
+
+
+.cards-screen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+}
+
+.deck-screen{
+    border: 2px green solid;
+    background-color: black;
+    width: 700px;
+    height: 200px;
+    padding: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8),
+                0 5px 15px rgba(0, 0, 0, 0.6),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1);
 }
