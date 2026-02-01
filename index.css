@@ -4,6 +4,9 @@ body{
     background-color: midnightblue;
     color: white;
 }
+header{
+    margin-bottom: 50px;
+}
 
 
 .cards-screen{
@@ -13,6 +16,7 @@ body{
     align-items: center;
     gap: 50px;
     width: 100%;
+
 }
 
 .deck-screen{
@@ -24,4 +28,20 @@ body{
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8),
                 0 5px 15px rgba(0, 0, 0, 0.6),
                 inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+
+.button-class{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 30px;
+}
+
+button{
+    margin: 0;
+    width: 150px;
+    height: 50px;
+    border-radius: 2px;
 }
